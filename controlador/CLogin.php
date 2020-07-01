@@ -21,6 +21,7 @@
     else
     {
         header("Location: ../login.php");
+        echo 'alert("Error inicio de sesion")';
     }
 
         
