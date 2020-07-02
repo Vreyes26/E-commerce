@@ -6,8 +6,9 @@ session_start();
     <head>
         <title>Login</title>
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="img/icon.ico" rel="icon" type="icon/ico"/>
     </head>
-    <body>
+    <body id="login">
         <div class="loginBox">
             <a href="index.php"><img class="logo" src="img/logo.png" alt="Logo"/></a>
             <form action="controlador/CLogin.php" method="POST" autocomplete="off">

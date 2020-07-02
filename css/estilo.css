@@ -9,7 +9,7 @@
     
 }
 
-html{
+#login{
     background-color: #003366;
 }
 
@@ -86,3 +86,33 @@ html{
 }
 
 /*INDEX*/
+.in{
+    background-color: #0073e6;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    transition-duration: 1s;
+    
+}
+
+.cerrar-sesion{
+    
+}
+
+.dv-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv-productos .producto{
+    background-color: #cc6600;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.dv-productos img{
+    height: 100px;
+}
