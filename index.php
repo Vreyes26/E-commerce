@@ -13,11 +13,11 @@ session_start();
     <body>
         <nav>
             <?php
-                if(isset($_SESSION["usuario"])){
+                if(isset($_SESSION["nombre"])){
                 ?>
-                <div class="sesion-usuario">
-                    <a id="label_username"><?php echo($_SESSION["usuario"]);?></a>
-                    <div class="cerrar-sesion">
+                <div class="usuario">
+                    <a id="label_username"><?php echo($_SESSION["nombre"]);?></a>
+                    <div class="cerrar_sesion">
                         <a href="logout.php" id="sesion-close">Cerrar sesion</a>
                     </div>
                 </div>
@@ -26,10 +26,11 @@ session_start();
                 else
                 {
                 ?>
-                <a class="in" href="login.php">Iniciar sesion</a>
+                <a class="in-sesion" href="login.php">Iniciar sesion</a>
                 <?php
                 }
             ?>
+                <h1 class="indx">Tienda online</h1>
         </nav>
         
         <div class="dv-productos">
