@@ -17,7 +17,7 @@ session_start();
                 <input type="text" name="nombre" id="user" maxlength="12" placeholder="Usuario" required/>
                 <label for="password">Contraseña:</label>
                 <input type="password" name="contraseña" maxlength="10" id="password" placeholder="Contraseña" required>
-                <input type="submit" value="Iniciar" name="buttonSesion">
+                <input class="bt_in" type="submit" value="Iniciar" name="buttonSesion">
             </form>
         </div>
     </body>

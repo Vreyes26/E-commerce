@@ -133,4 +133,22 @@
 
 .dv-productos img{
     height: 100px;
+    width: 100%;
+}
+
+.bt_in{
+    border: none;
+    outline: none;
+    width: 25%;
+    height: 20px;
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+.bt_in:hover{
+    background-color: #003366;
+    transition-duration: 1s;
 }

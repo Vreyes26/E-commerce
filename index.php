@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once 'carroCompras.php';
 ?>
 <!DOCTYPE html>
 
@@ -9,6 +10,7 @@ session_start();
         <title>E-commerce</title>
         <link href="img/icon.ico" rel="icon" type="icon/ico"/>
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body>
         <nav>
@@ -35,8 +37,16 @@ session_start();
         
         <div class="dv-productos">
             <div class="producto">
-                <p>producto_1</p>
-                <img src="img/producto.jpg" alt="producto 1"/>
+                <form action="comprasUser.php" method="POST">
+                    <img src="img/producto.jpg" alt="producto 1"/><br>
+                    <label>Nombre</label>
+                    <input type="text"  name="nombre" value="PSP"/><br>
+                    <label>Precio:</label>
+                    <input value="12000" name="precio" /><br>
+                    <label>Cantidad</label>
+                    <input type="number" value="1" name="cantidad"/><br>
+                    <input class="bt_in" type="submit" value="Iniciar" name="buttonSesion">
+                </form>
             </div>
             <div class="producto">
                 <p>producto_2</p>
